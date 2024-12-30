@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'oldskool'; /* Name of the font */
+    src: url('./fonts/oldskool/Oldschool\ Grotesk\ Medium.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'oldskool-l'; /* Name of the font */
+    src: url('./fonts/oldskool/Oldschool\ Grotesk\ Light.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'nib-it'; /* Name of the font */
+    src: url('./fonts/NIB/NibPro-LightItalic.ttf') format('opentype');
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec1-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3eeea;
+    padding: 17px
+}
+.sec1-a{
+    font-family: oldskool;
+    font-size: 14.2px;
+    color: #000;
+    font-weight: 700;
+}
+.svg-text-1{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.svg-text-1 svg{
+    height: 16px;
+    width: 16px;
+}
+.sec2-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22px;
+    padding-right: 60px;
+    padding-top: 14px;
+}
+.sec2-list-item li{
+    list-style: none;
+    font-family: oldskool;
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-size: .7901234568rem;
+    font-weight: 600;
+}
+.cart-img{
+    width: 20px;
+    height: 20px;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+}
+.logo-img img{
+    width: 210px;
+    aspect-ratio: auto 210 / 38;
+    height: 38px;
+    margin-top: -14px;
+}
+.sec2-flex2{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.sec2-btn{
+    padding: 1rem 1.5rem;
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-size: 14.2px;
+    font-family: oldskool-l;
+    background-color: white;
+    border: none;
+    min-height: 59px;
+}
+.sec3-bg{
+    background-image: url(images/0590_PF_Winte24_PostCDay_HP_Site_SWAG.webp);
+    object-fit: cover;
+}
+.card-flex{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Container styles */
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+}
+
+/* Input field styles */
+.text-input {
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px; /* Add top padding for label space */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Label styles */
+.static-label {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-size: 14px;
+    color: #999;
+    background-color: white; /* Ensure label background is visible */
+    padding: 0 5px;
+    pointer-events: none; /* Prevent label from being clicked */
+    font-family: oldskool-l;
+}
+.inp-flex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.sec3-card{
+    z-index: 1;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 45px 70px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.mid-flex{
+    display: flex;
+    justify-content: center;
+    padding: 54px 0px;
+}
+.sec3-card h4{
+    font-family: nib-it;
+    font-size: 25px;
+}
+.sec3-card p{
+    font-family: oldskool-l;
+    font-size: 14.2px;
+    padding-bottom: 20px;
+}
+.calender-img{
+    height: 25px;
+    width: 25px;
+}
+.card-btn{
+    margin-right: 240px;
+    margin-top: 15px;
+    border-radius: 26px;
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: oldskool;
+    font-size: 14.2px;
+    color: white;
+    background-color: #000;
+    border: none;
+}
