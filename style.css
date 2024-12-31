@@ -296,5 +296,31 @@
     font-weight: 100;
     padding: 15px 0px;
 }
-
-
+.sec6-container{
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.grid2-p1{
+    font-family: oldskool-l;
+    font-weight: 300;
+    padding: 22px 6px;
+    padding-bottom: 32px;
+    background-color: #f3eeea;
+    margin-top: -4px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.grid-element2{
+    padding: 32px;
+}
+.grid-element2 img{
+    color: transparent;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
