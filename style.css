@@ -53,7 +53,7 @@
 .sec2-list-item{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: end;
     gap: 22px;
     padding-right: 60px;
     padding-top: 14px;
@@ -65,6 +65,10 @@
     letter-spacing: .15px;
     font-size: .7901234568rem;
     font-weight: 600;
+}
+.sec2-list{
+    display: flex;
+    justify-content: flex-end;
 }
 .cart-img{
     width: 20px;
@@ -96,13 +100,16 @@
     border: none;
     min-height: 59px;
 }
+.sec3-container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
 .sec3-bg{
     background-image: url(images/0590_PF_Winte24_PostCDay_HP_Site_SWAG.webp);
     object-fit: cover;
     background-position: -75px -77px;
-    max-width: 1350px;
-    width: 100%;
-    margin: 0 auto;
+    
 }
 .card-flex{
     display: flex;
@@ -537,3 +544,138 @@
     letter-spacing: .15px;
     font-family:oldskool-l
 }
+
+
+
+
+
+/* Hide the hamburger menu by default */
+/* Hamburger menu styling */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1100; /* Above overlay */
+}
+
+.hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/* Show hamburger menu on smaller screens */
+@media screen and (max-width: 1200px) {
+    .hamburger-menu {
+        display: flex;
+        margin-left: 15px;
+        margin-top: 12px;
+    }
+
+    .middle-nav-con {
+        display: none; /* Hide the default navigation */
+    }
+}
+
+
+/* Hidden dropdown space */
+.dropdown-space {
+    display: none; /* Initially hidden */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-space.show {
+    display: block; /* Show when 'show' class is added */
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Search bar */
+.dropdown-space .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Buttons and list items in dropdown */
+.dropdown-space .buttons,
+.dropdown-space .list-items {
+    margin-bottom: 20px;
+}
+
+.dropdown-space .sec2-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropdown-space .list-items ul {
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-space .list-items li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+

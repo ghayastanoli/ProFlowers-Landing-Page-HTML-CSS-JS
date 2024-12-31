@@ -1,0 +1,29 @@
+@media (max-width: 860px){
+    .sec3-bg{
+        height: 350px;
+        margin-bottom: 100px;
+    }
+    .sec3-card{
+        position: absolute;
+        top: 48%;
+    }
+    .card-flex{
+        flex-direction: column;
+    }
+    .input-container {
+        max-width: 100%;
+    }
+    .inp-flex{
+        display: block;
+    }
+    .calender-img{
+        display: none;
+    }
+    .card-btn{
+        width: 100%;
+    }
+    .sec-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
