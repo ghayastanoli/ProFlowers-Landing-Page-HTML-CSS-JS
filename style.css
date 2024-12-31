@@ -45,6 +45,11 @@
     height: 16px;
     width: 16px;
 }
+.sec2-flex1{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
 .sec2-list-item{
     display: flex;
     align-items: center;
@@ -95,6 +100,9 @@
     background-image: url(images/0590_PF_Winte24_PostCDay_HP_Site_SWAG.webp);
     object-fit: cover;
     background-position: -75px -77px;
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
 .card-flex{
     display: flex;
@@ -143,6 +151,7 @@
     gap: 8px;
 
 }
+ 
 .sec3-card{
     z-index: 1;
     display: inline-flex;
@@ -206,6 +215,9 @@
 .sec-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
 .grid-element img{
     color: transparent;
@@ -277,7 +289,14 @@
     object-position: center center;
     width: 100%;
     height: auto;
+    
 }
+.sec5-container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 .sec5-text {
     position: absolute;
@@ -325,6 +344,11 @@
     border-radius: 10px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+.sec10-container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
 .sec10-div1 h2{
     font-family: nib-it;
@@ -379,6 +403,11 @@
     display: flex;
     justify-content: space-around;
     padding: 0px 16px;
+}
+.footer{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
 .column1{
     display: flex;
@@ -474,6 +503,11 @@
 }
 .footer-img img{
     padding: 30px 70px;
+}
+.footer-imgs{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }
 .end-first{
     display: flex;
