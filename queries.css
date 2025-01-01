@@ -115,4 +115,11 @@
     .sec-grid{
         grid-template-columns: repeat(1, 1fr);
     }
+    .footer-inp{
+        flex-direction: column;
+        gap: 4px;
+    }
+    .footer-btn{
+        width: 100%;
+    }
 }
