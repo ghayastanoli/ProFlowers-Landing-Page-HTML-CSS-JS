@@ -109,6 +109,10 @@
     .sec3-bg{
         width: 100%;
     }
+    .sec10-content{
+        padding: 40px 35px
+    }
+
 }
 
 @media (max-width: 520px){
@@ -121,5 +125,11 @@
     }
     .footer-btn{
         width: 100%;
+    }
+    .sec10-h1{
+        font-size: 32px;
+    }
+    .sec10-h2{
+        font-size: 28px;
     }
 }
